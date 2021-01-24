@@ -13,7 +13,5 @@ jobs:
             - run: npm install
       - run: npm run test
       - run: |
-          echo ${MY_PEM}
           echo ${MY_PEM} > ~/.ssh/my.pem
           chmod 400 ~/.ssh/my.pem
-          ssh -i ~/.ssh/my.pem -o StrictHostKeyChecking=no root@8.130.49.249 "cd /root/circleci-ssh-deploy;git pull;docker-compose up --build -d"
