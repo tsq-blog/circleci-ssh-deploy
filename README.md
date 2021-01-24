@@ -1,7 +1,5 @@
 # circleci-ssh-deploy
 
-[![CircleCI](https://circleci.com/gh/webbootcamp-cn-blog/circleci-ssh-deploy/tree/main.svg?style=svg)](https://circleci.com/gh/webbootcamp-cn-blog/circleci-ssh-deploy/tree/main)
-
 A simple nodejs project and using docker-compose to deploy it.
 
 ## Files
