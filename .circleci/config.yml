@@ -13,5 +13,5 @@ jobs:
             - run: npm install
       - run: npm run test
       - run: |
-          echo ${MY_PEM} > ~/.ssh/my.pem
+          echo ${MY_PEM} | tr '|' '\012' > ~/.ssh/my.pem
           chmod 400 ~/.ssh/my.pem
