@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    container_name: circleci-ssh-deploy
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - '8088:8088'

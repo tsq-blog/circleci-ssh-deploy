@@ -1,0 +1,20 @@
+{
+  "name": "circleci-ssh-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"hello world\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbootcamp-cn-blog/circleci-ssh-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbootcamp-cn-blog/circleci-ssh-deploy/issues"
+  },
+  "homepage": "https://github.com/webbootcamp-cn-blog/circleci-ssh-deploy#readme"
+}
