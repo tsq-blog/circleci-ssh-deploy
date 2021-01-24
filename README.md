@@ -1,6 +1,8 @@
 # circleci-ssh-deploy
 
-A simple nodejs project for article .
+[![CircleCI](https://circleci.com/gh/webbootcamp-cn-blog/circleci-ssh-deploy/tree/main.svg?style=svg)](https://circleci.com/gh/webbootcamp-cn-blog/circleci-ssh-deploy/tree/main)
+
+A simple nodejs project.
 
 ## Files
 
